@@ -1,0 +1,85 @@
+div#foodbkgd {
+  font-family: Arial;
+  font-size: 70px;
+  color: darkred;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  padding: 10%;
+  background-image: url(https://images.unsplash.com/photo-1608512114587-dd7bda2c5ac1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+div#foodbkgd.name {
+  color: white;
+}
+
+
+h4 {
+  margin-bottom: 0;
+  color: darkred;
+}
+
+ul, ol {
+  margin-top: 0;
+  display: none;
+}
+
+ul.showMe,
+ol.showMe {
+  display: block;
+}
+
+
+.copyright {
+  font-family: Arial;
+  font-size: 9px;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: inline-block;
+  width: 100vw;
+  padding: 1vw;
+}
+
+#ingredients {
+  background-color: lightgray;
+  color: red;
+}
+
+#equipment {
+  background-color: lightgray; 
+  color: red;
+}
+
+#directions {
+  background-color: lightgray;
+  color: red;
+}
+
+@media (orientation: landscape) {
+  
+  div {
+    width: calc(100vw/3);
+    float: left;
+    display: block;
+  }}
+
+  
+  @media screen and (max-width: 575px) {
+     
+    h4 {
+    font-size: 55px;
+    }}
