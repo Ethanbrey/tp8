@@ -1,4 +1,4 @@
-div#foodbkgd {
+div#cookieHeader {
   font-family: Arial;
   font-size: 70px;
   color: darkred;
@@ -6,13 +6,13 @@ div#foodbkgd {
   height: auto;
   width: 100%;
   padding: 10%;
-  background-image: url(https://images.unsplash.com/photo-1608512114587-dd7bda2c5ac1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+  background-image: none; /* url(https://images.unsplash.com/photo-1608512114587-dd7bda2c5ac1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80); */
   background-size: cover;
   background-position: center;
   
 }
 
-div#foodbkgd.name {
+div#cookieHeader h1.name {
   color: white;
 }
 
@@ -30,6 +30,23 @@ ul, ol {
 ul.showMe,
 ol.showMe {
   display: block;
+}
+
+#menu {
+    position: absolute;
+    width: 100vw;
+}
+
+#menu a{
+  color: black;
+  font-size: 15px;
+  padding: 1vw;
+}
+
+#contributor {
+  display: block;
+  width: 100vw;
+  color: darkred;
 }
 
 
